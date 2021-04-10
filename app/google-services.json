@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596942857482",
+    "project_id": "restaurante-2110f",
+    "storage_bucket": "restaurante-2110f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596942857482:android:d5bfc663fc82970b33c6f3",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.parcial2dsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596942857482-nr9cb924g8iagnao3iq37j8sk7kn3c6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDqQz-urgBP4AqHVqENilLv6Dj-VGOok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596942857482-nr9cb924g8iagnao3iq37j8sk7kn3c6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
