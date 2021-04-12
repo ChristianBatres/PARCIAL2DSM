@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Parcial2DSM">
-        <activity android:name=".naranjada"></activity>
+        <activity android:name=".AdaptadorOrden"></activity>
+        <activity android:name=".naranjada" />
         <activity android:name=".limonada" />
         <activity android:name=".cocacola" />
         <activity android:name=".fajitas" />

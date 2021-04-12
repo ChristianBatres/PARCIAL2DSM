@@ -5,11 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
+import sv.edu.udb.parcial2dsm.datos.Orden;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class DashboardActivity extends AppCompatActivity {
+    public static FirebaseDatabase database = FirebaseDatabase.getInstance();
+    public static DatabaseReference refordenes = database.getReference("ordenes");
+
     String ordenes[][]=new String[20][3];
     int c=0;
     @Override
@@ -142,5 +145,26 @@ public class DashboardActivity extends AppCompatActivity {
         i.putExtra("c", c);
         i.putExtra("ordenes", ordenes);
         startActivity(i);
+    }
+    public void historial (View v) {
+        Intent i=new Intent(this, AdaptadorOrden.class);
+
+        startActivity(i);
+    }
+    public void guardar(View v){
+        for(int i=0; i<ordenes.length;i++){
+            if(ordenes[i][0]==null){
+
+            }else{
+                Orden Orden = new Orden(ordenes[i][0],ordenes[i][1],ordenes[i][2]);
+                refordenes.push().setValue(Orden);
+                finish();
+
+            }
+        }
+        // Se forma objeto persona
+
+
+
     }
 }
