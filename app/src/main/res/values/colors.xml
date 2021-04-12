@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- Edit your theme color here -->
-    <color name="colorPrimary">#D81B60</color>
+    <color name="colorPrimary">#000</color>
     <color name="colorPrimaryDark">#BB1658</color>
     <color name="colorAccent">#F63D31</color>
     <color name="colorPrimarySplash">#00C853</color>

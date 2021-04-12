@@ -1,6 +1,30 @@
 <resources>
-    <string name="app_name">Comidad Mexicana</string>
-    <string name="inicio">Bienvenido!</string>
+    <string name="app_name">Mr. Burrito</string>
+    <string name="inicio">Bienvenido a Mr. Burrito!</string>
     <string name="correo">Correo Electronico</string>
     <string name="password">Contraseña</string>
+    <string name="titulo1">Comidas y Bebidas</string>
+    <string name="titulo2">Listado de orden</string>
+
+    <string name="c1">Burritos</string>
+    <string name="c2">Enchiladas</string>
+    <string name="c3">Guacamole</string>
+    <string name="c4">Quesadillas</string>
+    <string name="c5">Tacos</string>
+    <string name="c6">Tortas</string>
+    <string name="c7">Fajitas</string>
+    <string name="b1">Coca Cola</string>
+    <string name="b2">Limonada</string>
+    <string name="b3">Naranjada</string>
+    <string name="descripcion1">tortilla de harina de trigo o de maíz en forma de rollo y que en su interior está rellena de carne guisada combinada con frijoles fritos, verduras y acompañada por el sabor picante del chile.</string>
+    <string name="descripcion2">se elabora con tortilla de maíz enrollada y bañada en alguna salsa picante utilizando chile en su preparación. Dependiendo del estilo, la enchilada puede ir acompañada o rellena de carnes pollo, res, pavo o queso; además de ser acompañada de alguna guarnición adicional, que generalmente consiste en cebolla fresca picada o en rodajas, lechuga, crema de leche y queso.</string>
+    <string name="descripcion3">Salsa espesa que se prepara con aguacate molido o picado, al que se agrega cebolla, tomate y chile verde.</string>
+    <string name="descripcion4">tortilla de maíz, o también de trigo, doblada por la mitad,​ rellena de queso. Puedes añadir otros ingredientes se come caliente,2​ ya sea frita o cocida en el comal. Aunque se considera al queso como el ingrediente principal..</string>
+    <string name="descripcion5">consiste en una tortilla enrollada (generalmente de maíz, también de harina de trigo, de nopal o de algún otro ingrediente) que contiene algún alimento dentro y algún tipo de salsa.</string>
+    <string name="descripcion6"> Bolillo relleno con frijoles, jamón, queso de puerco, chicharrón en salsa verde, carne de res deshebrada, aguacate, chorizo…</string>
+    <string name="descripcion7">Consiste en carne asada a la parrilla y cortada en tiras, servida sobre una tortilla de harina de maíz o harina de trigo.</string>
+    <string name="descripcion8">bebida gaseosa y refrescante</string>
+    <string name="descripcion9">bebida refrescante no alcohólica, compuesta principalmente de agua carbonatada, edulcorada, aromatizada a limón</string>
+    <string name="descripcion10">Bebida refrescante a base de jugo de naranja y azúcar, terminada con agua con o sin gas, a la que a veces se añade un poco de jugo de limón o un chorrito de curaçao o de ron. La naranjada se suele servir muy fresca, con cubitos de hielo./</string>
+
 </resources>

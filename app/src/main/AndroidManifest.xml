@@ -9,11 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Parcial2DSM">
-        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".naranjada"></activity>
+        <activity android:name=".limonada" />
+        <activity android:name=".cocacola" />
+        <activity android:name=".fajitas" />
+        <activity android:name=".tortas" />
+        <activity android:name=".tacos" />
+        <activity android:name=".quesadillas" />
+        <activity android:name=".guacamole" />
+        <activity android:name=".enchiladas" />
+        <activity android:name=".carrito" />
+        <activity android:name=".burritos" />
+        <activity android:name=".RegistrationActivity" />
         <activity android:name=".DashboardActivity" />
         <activity
             android:name=".ActivitySplash"
-            android:label="Comidad Mexicana"
+            android:label="Mr. Burrito"
             android:theme="@style/ThemeSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
